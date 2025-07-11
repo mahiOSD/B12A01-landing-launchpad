@@ -1,14 +1,9 @@
 body {
   margin: 0;
   font-family: 'Raleway', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: #f5f7fa;
+  background: #F5F8FF;
   background-image: url('../Assets/Hero-bg.png');
   background-repeat: repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  flex-direction: column;
   text-align: center;
 }
 
@@ -41,7 +36,7 @@ body {
 }
 
 .navbar .signup-btn:hover {
-   background-color: #7c3aed;
+  background-color: #7c3aed;
   transform: scale(1.05);
 }
 
@@ -49,7 +44,7 @@ h1 {
   font-size: 45px;
   color: #252432;
   max-width: 600px;
-  margin: 100px 20px 20px;
+  margin: 140px auto 20px;
 }
 
 .focused-btn {
@@ -65,6 +60,111 @@ h1 {
 }
 
 .focused-btn:hover {
-   background-color: #7c3aed; 
+  background-color: #7c3aed; 
   transform: scale(1.05);
+}
+
+
+.action-section {
+  background: #f5f8ff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.action-content {
+  max-width: 1000px;
+  margin: 0 auto 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.action-left {
+  flex: 1;
+  min-width: 280px;
+}
+
+.action-left h2 {
+  font-size: 32px;
+  color: #252432;
+  margin-bottom: 16px;
+}
+
+.action-left p {
+  color: #6b7280;
+  font-size: 16px;
+  max-width: 400px;
+  margin: 0 0 24px;
+}
+
+.live-preview-btn {
+  background-color: #5a4bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.live-preview-btn:hover {
+  background-color: #7c3aed;
+  transform: scale(1.05);
+}
+
+.action-right {
+  flex: 1;
+  min-width: 280px;
+  text-align: center;
+}
+
+.action-right img {
+  max-width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+
+.stats {
+  background-color: #4E47FF10;
+  padding: 40px 20px;
+  border-radius: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.stats h3 {
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: #252432;
+}
+
+.stats-boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 140px; 
+  flex-wrap: wrap;
+}
+
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stat-number {
+  font-size: 32px;
+  font-weight: bold;
+  color: #5a4bff;
+}
+
+.stat-label {
+  color: #6b7280;
+  font-size: 14px;
 }
