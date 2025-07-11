@@ -2,10 +2,16 @@ body {
     margin: 0;
     font-family: 'Raleway', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: #F5F8FF;
-    background-image: url('../Assets/Hero-bg.png');
-    background-repeat: repeat;
+    
     text-align: center;
 }
+.hero-section {
+    background-image: url('../Assets/Hero-bg.png');
+    background-repeat: repeat;
+    background-size: cover; 
+    padding: 140px 20px 40px; 
+}
+
 
 .navbar {
     position: absolute;
@@ -248,14 +254,18 @@ h1 {
 }
 
 .cta-section {
-    background: #f5f8ff;
-    background-image: none;
-    
-    padding: 60px 20px;
     text-align: center;
-    border-radius: 20px;
+    padding: 40px 20px;
+    background: white;
+    border-radius: 12px; 
+}
+.cta-card {
     max-width: 1000px;
     margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 20px;
+    border: 2px solid white; 
 }
 
 
@@ -294,3 +304,111 @@ h1 {
     border-radius: 20px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
+
+
+.newsletter-section {
+  background-color: #f6f8ff;
+  padding: 80px 20px;
+}
+
+.newsletter-content {
+  max-width: 1000px; 
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px; 
+}
+
+
+.newsletter-left h2 {
+  font-size: 40px;
+  font-weight: 800;
+  color: #0f0f0f;
+}
+
+.newsletter-right {
+  flex: 1;
+  min-width: 300px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.contact-form label {
+  font-size: 14px;
+  color: #333;
+  text-align: left;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  background-color: #fff;
+}
+
+.contact-form button {
+  padding: 12px;
+  background-color: #5a4bff;
+  color: white;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #7c3aed;
+  transform: scale(1.05);
+}
+
+
+.site-footer {
+  background-color: white;
+  padding: 60px 20px;
+  text-align: center;
+  border-top: 1px solid #eee;
+}
+
+.site-footer .footer-logo {
+  font-size: 36px;
+  font-weight: 800;
+  color: #5a4bff;
+}
+
+.footer-description {
+  color: #7c7c7c;
+  max-width: 700px;
+  margin: 20px auto 30px;
+  font-size: 16px;
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 0;
+}
+
+.footer-links li a {
+  text-decoration: none;
+  color: #7c7c7c;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.footer-links li a:hover {
+  color: #5a4bff;
+}
+
