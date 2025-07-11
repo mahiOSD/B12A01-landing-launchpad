@@ -1,246 +1,296 @@
 body {
-  margin: 0;
-  font-family: 'Raleway', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: #F5F8FF;
-  background-image: url('../Assets/Hero-bg.png');
-  background-repeat: repeat;
-  text-align: center;
+    margin: 0;
+    font-family: 'Raleway', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #F5F8FF;
+    background-image: url('../Assets/Hero-bg.png');
+    background-repeat: repeat;
+    text-align: center;
 }
 
 .navbar {
-  position: absolute;
-  top: 20px;
-  left: 30px;
-  right: 30px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    right: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .navbar .logo {
-  font-weight: bold;
-  color: #5a4bff;
-  font-size: 24px;
+    font-weight: bold;
+    color: #5a4bff;
+    font-size: 24px;
 }
 
 .navbar .signup-btn {
-  background-color: #5a4bff;
-  color: white;
-  padding: 8px 16px;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  font-weight: 500;
-  text-decoration: none;
-  transition: background-color 0.3s ease, transform 0.3s ease;
+    background-color: #5a4bff;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .navbar .signup-btn:hover {
-  background-color: #7c3aed;
-  transform: scale(1.05);
+    background-color: #7c3aed;
+    transform: scale(1.05);
 }
 
 h1 {
-  font-size: 45px;
-  color: #252432;
-  max-width: 600px;
-  margin: 140px auto 20px;
+    font-size: 45px;
+    color: #252432;
+    max-width: 600px;
+    margin: 140px auto 20px;
 }
 
 .focused-btn {
-  background-color: #5a4bff;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  font-weight: 500;
-  text-decoration: none;
-  transition: background-color 0.3s ease, transform 0.3s ease;
+    background-color: #5a4bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .focused-btn:hover {
-  background-color: #7c3aed; 
-  transform: scale(1.05);
+    background-color: #7c3aed;
+    transform: scale(1.05);
 }
 
 
 .action-section {
-  background: #f5f8ff;
-  padding: 80px 20px;
-  text-align: center;
+    background: #f5f8ff;
+    padding: 80px 20px;
+    text-align: center;
 }
 
 .action-content {
-  max-width: 1000px;
-  margin: 0 auto 60px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  gap: 40px;
-  flex-wrap: wrap;
-  text-align: left;
+    max-width: 1000px;
+    margin: 0 auto 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    text-align: left;
 }
 
 .action-left {
-  flex: 1;
-  min-width: 280px;
+    flex: 1;
+    min-width: 280px;
 }
 
 .action-left h2 {
-  font-size: 32px;
-  color: #252432;
-  margin-bottom: 16px;
+    font-size: 32px;
+    color: #252432;
+    margin-bottom: 16px;
 }
 
 .action-left p {
-  color: #6b7280;
-  font-size: 16px;
-  max-width: 400px;
-  margin: 0 0 24px;
+    color: #6b7280;
+    font-size: 16px;
+    max-width: 400px;
+    margin: 0 0 24px;
 }
 
 .live-preview-btn {
-  background-color: #5a4bff;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: 500;
-  transition: background-color 0.3s ease, transform 0.3s ease;
+    background-color: #5a4bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .live-preview-btn:hover {
-  background-color: #7c3aed;
-  transform: scale(1.05);
+    background-color: #7c3aed;
+    transform: scale(1.05);
 }
 
 .action-right {
-  flex: 1;
-  min-width: 280px;
-  text-align: center;
+    flex: 1;
+    min-width: 280px;
+    text-align: center;
 }
 
 .action-right img {
-  max-width: 100%;
-  border-radius: 20px;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    max-width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 
 .stats {
-  background-color: #4E47FF10;
-  padding: 40px 20px;
-  border-radius: 20px;
-  max-width: 1000px;
-  margin: 0 auto;
+    background-color: #4E47FF10;
+    padding: 40px 20px;
+    border-radius: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .stats h3 {
-  font-size: 24px;
-  margin-bottom: 30px;
-  color: #252432;
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #252432;
 }
 
 .stats-boxes {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 140px; 
-  flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 140px;
+    flex-wrap: wrap;
 }
 
 
 .stat {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .stat-number {
-  font-size: 32px;
-  font-weight: bold;
-  color: #5a4bff;
+    font-size: 32px;
+    font-weight: bold;
+    color: #5a4bff;
 }
 
 .stat-label {
-  color: #6b7280;
-  font-size: 14px;
-}
-.reviews-section {
-  background: #f5f8ff;
-  padding: 80px 20px;
-  text-align: center;
+    color: #6b7280;
+    font-size: 14px;
 }
 
+.reviews-section {
+    background: #f5f8ff;
+    padding: 60px 20px;
+    text-align: center;
+    margin-top: -50px;
+}
+
+
 .reviews-section h3 {
-  font-size: 28px;
-  color: #252432;
-  margin-bottom: 40px;
+    font-size: 28px;
+    color: #252432;
+    margin-bottom: 40px;
 }
 
 .reviews-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
 }
 
 .review-card {
-  background: white;
-  border-radius: 12px;
-  padding: 20px;
-  width: 280px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-  text-align: left;
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    width: 280px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    text-align: left;
 }
 
 .stars {
-  display: flex;
-  gap: 4px;
-  margin-bottom: 10px;
+    display: flex;
+    gap: 4px;
+    margin-bottom: 10px;
 }
 
 .star-icon {
-  width: 20px;
-  height: 20px;
+    width: 20px;
+    height: 20px;
 }
 
 
 .review-card h4 {
-  font-size: 18px;
-  color: #252432;
-  margin-bottom: 8px;
+    font-size: 18px;
+    color: #252432;
+    margin-bottom: 8px;
 }
 
 .review-card p {
-  font-size: 14px;
-  color: #6b7280;
-  margin-bottom: 16px;
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 16px;
 }
 
 .reviewer {
-  display: flex;
-  align-items: center;
-  gap: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .reviewer img {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  object-fit: cover;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 .reviewer-name {
-  font-size: 14px;
-  font-weight: 500;
-  color: #252432;
+    font-size: 14px;
+    font-weight: 500;
+    color: #58585f;
 }
 
 .review-date {
-  font-size: 12px;
-  color: #9ca3af;
+    font-size: 12px;
+    color: #9ca3af;
 }
 
+.cta-section {
+    background: #f5f8ff;
+    background-image: none;
+    
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 20px;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+
+.cta-section h2 {
+    font-size: 32px;
+    color: #252432;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.cta-section p {
+    font-size: 16px;
+    color: #6b7280;
+    margin-bottom: 20px;
+}
+
+.cta-btn {
+    display: inline-block;
+    background-color: #5a4bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-bottom: 30px;
+}
+
+.cta-btn:hover {
+    background-color: #7c3aed;
+    transform: scale(1.05);
+}
+
+.cta-image img {
+    max-width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
