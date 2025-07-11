@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: 'Raleway', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f7fa;
+  background-image: url('../Assets/Hero-bg.png');
+  background-repeat: repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  text-align: center;
+}
+
+.navbar {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  right: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo {
+  font-weight: bold;
+  color: #5a4bff;
+  font-size: 24px;
+}
+
+.navbar .signup-btn {
+  background-color: #5a4bff;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar .signup-btn:hover {
+   background-color: #7c3aed;
+  transform: scale(1.05);
+}
+
+h1 {
+  font-size: 45px;
+  color: #252432;
+  max-width: 600px;
+  margin: 100px 20px 20px;
+}
+
+.focused-btn {
+  background-color: #5a4bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.focused-btn:hover {
+   background-color: #7c3aed; 
+  transform: scale(1.05);
+}
